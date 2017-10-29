@@ -1,0 +1,30 @@
+{
+    "name": "auberginead/sdk",
+    "description": "Aubergine SDK for PHP",
+    "keywords": ["adserver", "sdk"],
+    "type": "library",
+    "homepage": "https://auberginead.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antal Áron",
+            "email": "antalaron@antalaron.hu"
+        }
+    ],
+    "require": {
+        "php": "^5.4|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aubergine\\SDK\\": "src/Aubergine/SDK/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
